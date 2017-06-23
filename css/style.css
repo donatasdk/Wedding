@@ -1,40 +1,50 @@
 body {
-    background-image: url('../images/wedding_couple.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
     margin: 0;
 }
-.first{
-    height: 100vh;
+
+#home {
+    position: relative;
 }
-.text {
-    position: absolute;
+
+#home img {
+    width: 100%;
+
+}
+
+#text {
     text-align: center;
+    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-
 }
-.nav{
-    overflow: hidden;
-    background-color: #ffffff;
+.nav {
     position: fixed;
     bottom: 0;
+    left: 0;
     width: 100%;
     opacity: 0.75;
+    background: white;
     height: 50px;
-}
-.nav a{
-    float: left;
-    display: inline;
-    color: black;
-    text-align: center;
-    text-decoration: none;
-    width: 25%;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    position: relative;
+
 
 }
+.nav li{
+    float: left;
+    text-align: center;
+    width: 25%;
+    style: none;
+
+
+}
+.nav ul {
+    list-style-type: none;
+
+}
+.nav a:link {
+    text-decoration: none;
+    color: black;
+
+
+
