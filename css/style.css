@@ -68,13 +68,15 @@ body {
 #janejohn content {
     position: absolute;
 }
+#janejohn content
 
-#janejohn img {
+#janejohn content img {
     width: 60%;
     margin: 32px auto;
     filter: grayscale(50%);
     border-radius: 4px;
 }
+
 
 footer {
     margin-bottom: 50px;
