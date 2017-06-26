@@ -2,16 +2,16 @@ body {
     margin: 0;
     font-family: "Raleway", sans-serif;
     font-size: 30px;
-    line-height: 1.5;
 }
 
 #home {
-    position: relative;
+
+
 }
 
 #home img {
     width: 100%;
-
+    filter: grayscale(50%);
 }
 
 #text {
@@ -39,7 +39,6 @@ body {
     float: left;
     text-align: center;
     width: 25%;
-    style: none;
 
 }
 
@@ -51,9 +50,37 @@ body {
 #nav a:link {
     text-decoration: none;
     color: black;
+}
 
-h2 {
-    font-size: 30px;
+#janejohn {
+    background-color: #ffdddd;
+
+}
+
+#janejohn {
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    padding-top: 30px;
+
+}
+
+#janejohn content {
+    position: absolute;
+}
+
+#janejohn img {
+    width: 60%;
+    margin: 32px auto;
+    filter: grayscale(50%);
+    border-radius: 4px;
+}
+
+footer {
+    margin-bottom: 50px;
+    background-color: black;
+    color: white;
+}
 
 
 
