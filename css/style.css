@@ -1,5 +1,8 @@
 body {
     margin: 0;
+    font-family: "Raleway", sans-serif;
+    font-size: 30px;
+    line-height: 1.5;
 }
 
 #home {
@@ -19,7 +22,8 @@ body {
     transform: translate(-50%, -50%);
     color: white;
 }
-.nav {
+
+#nav {
     position: fixed;
     bottom: 0;
     left: 0;
@@ -27,24 +31,29 @@ body {
     opacity: 0.75;
     background: white;
     height: 50px;
-
+    font-size: 15px;
 
 }
-.nav li{
+
+#nav li {
     float: left;
     text-align: center;
     width: 25%;
     style: none;
 
-
 }
-.nav ul {
+
+#nav ul {
     list-style-type: none;
 
 }
-.nav a:link {
+
+#nav a:link {
     text-decoration: none;
     color: black;
+
+h2 {
+    font-size: 30px;
 
 
 
