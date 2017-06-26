@@ -7,6 +7,7 @@ body {
 #home {
 
 
+
 }
 
 #home img {
@@ -68,7 +69,9 @@ body {
 #janejohn content {
     position: absolute;
 }
-#janejohn content
+#janejohn #conten #italic{
+    width: 60%;
+}
 
 #janejohn content img {
     width: 60%;
