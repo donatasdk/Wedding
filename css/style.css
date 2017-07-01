@@ -1,21 +1,29 @@
 body {
     margin: 0;
     font-family: "Raleway", sans-serif;
+    background-color: #ffdddd;
+    font-size: 15px;
+    line-height: 1.5;
+
+}
+h1{
+    font-size: 64px;
+
+}
+h2{
     font-size: 30px;
 }
-
 #home {
-
-
-
+    filter: grayscale(50%);
 }
 
 #home img {
     width: 100%;
-    filter: grayscale(50%);
+
+
 }
 
-#text {
+.text {
     text-align: center;
     position: absolute;
     top: 50%;
@@ -31,8 +39,10 @@ body {
     width: 100%;
     opacity: 0.75;
     background: white;
-    height: 50px;
+    height: 55px;
     font-size: 15px;
+    z-index: 1;
+
 
 }
 
@@ -46,45 +56,123 @@ body {
 #nav ul {
     list-style-type: none;
 
+
 }
 
-#nav a:link {
+#nav a {
     text-decoration: none;
     color: black;
+    height:80%;
+    width:100%;
 }
-
-#janejohn {
-    background-color: #ffdddd;
-
+.grey:hover{
+    background-color: grey;
 }
-
-#janejohn {
-    position: relative;
-    overflow: hidden;
-    text-align: center;
-    padding-top: 30px;
-
-}
-
-#janejohn content {
-    position: absolute;
-}
-#janejohn #conten #italic{
-    width: 60%;
-}
-
-#janejohn content img {
-    width: 60%;
-    margin: 32px auto;
-    filter: grayscale(50%);
-    border-radius: 4px;
-}
-
-
-footer {
-    margin-bottom: 50px;
+#hooverblack:hover{
     background-color: black;
     color: white;
+}
+#janejohn {
+    text-align: center;
+    padding-top: 30px;
+    filter: grayscale(50%);
+
+}
+
+#janejohn #content {
+    max-width: 950px;
+    margin: auto;
+    padding-top: 65px;
+    padding-bottom: 65px;
+}
+
+
+
+#janejohn #content img {
+    margin: 32px auto;
+    border-radius: 5px;
+    z-index: -1;
+}
+#janejohn #content #blackButton a{
+    display: inline-block;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    padding: 12px 24px;
+    text-decoration: none;
+}
+#flowers{
+    position: relative;
+    filter: grayscale(50%);
+}
+#flowers img{
+    width: 100%;
+
+}
+#weddingLocation{
+    max-width: 980px;
+    margin: auto;
+    filter: grayscale(50%);
+    text-align: center;
+}
+#weddingLocation img{
+    border-radius: 5px;
+}
+#locationBottom{
+    max-width: 980px;
+    margin: auto;
+}
+#locationBottom #left{
+    float:left;
+    width: 50%;
+    text-align: center;
+
+
+}
+#locationBottom #right{
+    float: right;
+    width: 50%;
+    text-align: center;
+
+}
+#rsvp{
+    max-width: 980px;
+    margin: auto;
+    text-align: center;
+}
+#rsvp h1{
+    clear: both;
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+#bottomButton{
+    margin-top: 20px;
+    padding: 20px 60px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    opacity: 0.6;
+    background-color: red;
+    cursor: pointer;
+}
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+footer a{
+    color: white;
+
+}
+footer p{
+    margin-top: 40px;
+    padding: 25px;
+    margin-bottom: 0;
+}
+#whitebottom{
+    width: 100%;
+    height: 55px;
+    background-color: white;
 }
 
 

@@ -11,7 +11,7 @@
 <header>
     <div id="home">
         <img src="images/wedding_couple.jpg" alt="Wedding Couple">
-        <div id="text">
+        <div class="text">
             <h1>Jane & John</h1>
             <h2>Are getting married</h2>
             <p><b>17.07.2017</b></p>
@@ -20,10 +20,10 @@
 </header>
 <div id="nav">
     <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#janejohn">Jane & John</a></li>
-        <li><a href="#wedding">Wedding</a></li>
-        <li><a href="#rsvp">RSVP</a></li>
+        <li><a class="grey" href="#home">Home</a></li>
+        <li><a class="grey" href="#janejohn">Jane & John</a></li>
+        <li><a class="grey" href="#weddingLocation">Wedding</a></li>
+        <li><a id="hooverblack" href="#rsvp">RSVP</a></li>
     </ul>
 </div>
 <div id="janejohn">
@@ -43,16 +43,16 @@
             </i>
         </p>
         <p id="blackButton">
-            <a href="#wedding">Wedding Detail</a>
+            <a href="#weddingLocation">Wedding Detail</a>
         </p>
     </div>
 </div>
 <div id="flowers">
     <img src="images/flowers.jpg" alt="Flowers">
-    <h1>You Are Invited</h1>
-    <br>
-    <h2>Of course..</h2>
-
+    <div class="text"><h1>You Are Invited</h1>
+        <br>
+        <h2>Of course..</h2>
+    </div>
 
 </div>
 <div id="weddingLocation">
@@ -78,11 +78,12 @@
 <div id="rsvp">
     <h1>HOPE YOU CAN MAKE IT!</h1>
     <p>Kindly Respond By January, 2017</p>
-    <button id="bottomButton"></button>
+    <button id="bottomButton">RSVP</button>
 </div>
 <footer>
     <p> Powered by <a href="https://www.w3schools.com/w3css/default.asp"> w3.css</a></p>
 </footer>
+<div id="whitebottom"></div>
 
 
 </body>
