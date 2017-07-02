@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 body {
     margin: 0;
     font-family: "Raleway", sans-serif;
@@ -32,8 +35,9 @@ h2{
     color: white;
 }
 
-#nav {
+#nav{
     position: fixed;
+
     bottom: 0;
     left: 0;
     width: 100%;
@@ -42,6 +46,7 @@ h2{
     height: 55px;
     font-size: 15px;
     z-index: 1;
+
 
 
 }
@@ -57,13 +62,15 @@ h2{
     list-style-type: none;
 
 
+
 }
 
 #nav a {
-    text-decoration: none;
+    display: block;
     color: black;
-    height:80%;
-    width:100%;
+    text-align: center;
+    text-decoration: none;
+
 }
 .grey:hover{
     background-color: grey;
